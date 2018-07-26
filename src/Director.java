@@ -21,6 +21,11 @@ public class Director extends Employee {
         System.out.println(bonus);
     }
 
+    @Override
+    public double totalSalary() {
+        return getSalary() + bonus;
+    }
+
 
 }
 
